@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Northstar | Premium E-Commerce</title>
+    <meta
+      name="description"
+      content="Northstar is a premium online store featuring modern essentials, curated lifestyle products, and seamless shopping."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="loading-screen" aria-hidden="true">
+      <div class="loader"></div>
+    </div>
+
+    <header class="site-header">
+      <nav class="navbar container">
+        <a href="index.html" class="brand">
+          <span class="brand-mark">N</span>
+          <span>Northstar</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle Menu">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links">
+          <a href="index.html" class="active">Home</a>
+          <a href="products.html">Products</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="cart.html" class="cart-link">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="cart-count">0</span>
+          </a>
+          <button class="theme-toggle" aria-label="Toggle theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content" data-reveal>
+            <p class="eyebrow">Elevated Everyday Essentials</p>
+            <h1>Upgrade your lifestyle with premium picks.</h1>
+            <p>
+              Discover timeless design, elevated craftsmanship, and curated collections crafted for modern living.
+            </p>
+            <div class="hero-actions">
+              <a href="products.html" class="btn btn-primary">Shop Now</a>
+              <a href="about.html" class="btn btn-secondary">Our Story</a>
+            </div>
+            <div class="hero-stats">
+              <div>
+                <strong>4.9/5</strong>
+                <span>Rated by 20k+ buyers</span>
+              </div>
+              <div>
+                <strong>24/7</strong>
+                <span>Fast customer care</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-card glass" data-reveal>
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80" alt="Premium product showcase" />
+            <div class="hero-badges">
+              <span>New Season</span>
+              <span>Free Shipping</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" data-reveal>
+        <div class="section-heading">
+          <p class="eyebrow">Curated Categories</p>
+          <h2>Shop by lifestyle</h2>
+        </div>
+        <div class="category-grid">
+          <article class="category-card">
+            <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=900&q=80" alt="Modern accessories" />
+            <div>
+              <h3>Accessories</h3>
+              <p>Polished details that complete every look.</p>
+            </div>
+          </article>
+          <article class="category-card">
+            <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=900&q=80" alt="Luxury home decor" />
+            <div>
+              <h3>Home Decor</h3>
+              <p>Elevate spaces with timeless modern pieces.</p>
+            </div>
+          </article>
+          <article class="category-card">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80" alt="Smart wear" />
+            <div>
+              <h3>Active Wear</h3>
+              <p>Performance-driven essentials for every day.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" data-reveal>
+        <div class="section-heading">
+          <p class="eyebrow">Best Sellers</p>
+          <h2>Most loved products this month</h2>
+        </div>
+        <div class="product-grid-home">
+          <article class="product-card">
+            <div class="badge">Best Seller</div>
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80" alt="Signature sneakers" />
+            <div class="product-info">
+              <h3>Signature Runner</h3>
+              <div class="rating"><i class="fa-solid fa-star"></i> 4.9</div>
+              <p>$129.00</p>
+              <button class="btn btn-small add-to-cart" data-product="Signature Runner">Add to Cart</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="badge">New Arrival</div>
+            <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80" alt="Minimal smartwatch" />
+            <div class="product-info">
+              <h3>Nova Smartwatch</h3>
+              <div class="rating"><i class="fa-solid fa-star"></i> 4.8</div>
+              <p>$249.00</p>
+              <button class="btn btn-small add-to-cart" data-product="Nova Smartwatch">Add to Cart</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="badge">Limited</div>
+            <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=900&q=80" alt="Premium lamp" />
+            <div class="product-info">
+              <h3>Glow Lamp</h3>
+              <div class="rating"><i class="fa-solid fa-star"></i> 4.7</div>
+              <p>$89.00</p>
+              <button class="btn btn-small add-to-cart" data-product="Glow Lamp">Add to Cart</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="badge">Top Rated</div>
+            <img src="https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=900&q=80" alt="Travel bag" />
+            <div class="product-info">
+              <h3>Metro Travel Pack</h3>
+              <div class="rating"><i class="fa-solid fa-star"></i> 4.9</div>
+              <p>$159.00</p>
+              <button class="btn btn-small add-to-cart" data-product="Metro Travel Pack">Add to Cart</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-alt" data-reveal>
+        <div class="container why-grid">
+          <div>
+            <p class="eyebrow">Why Choose Us</p>
+            <h2>Modern commerce with exceptional care.</h2>
+            <p>
+              From premium packaging to concierge support, every detail is designed to make your shopping experience effortless.
+            </p>
+          </div>
+          <div class="feature-list">
+            <article class="feature-card">
+              <i class="fa-solid fa-truck-fast"></i>
+              <h3>Fast Global Delivery</h3>
+              <p>Lightning-fast shipping with transparent tracking.</p>
+            </article>
+            <article class="feature-card">
+              <i class="fa-solid fa-shield-halved"></i>
+              <h3>Secure Checkout</h3>
+              <p>Protected payments and trusted transactions.</p>
+            </article>
+            <article class="feature-card">
+              <i class="fa-solid fa-headset"></i>
+              <h3>Expert Support</h3>
+              <p>Friendly designers and product specialists ready to help.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" data-reveal>
+        <div class="section-heading">
+          <p class="eyebrow">Testimonials</p>
+          <h2>Trusted by customers worldwide</h2>
+        </div>
+        <div class="testimonial-grid">
+          <article class="testimonial-card glass">
+            <p>“Northstar feels like luxury without the fuss. Everything arrived beautifully packaged.”</p>
+            <div>
+              <strong>Mina R.</strong>
+              <span>Design Lead</span>
+            </div>
+          </article>
+          <article class="testimonial-card glass">
+            <p>“The product quality exceeded my expectations, and the site experience is flawless.”</p>
+            <div>
+              <strong>Jules T.</strong>
+              <span>Creative Director</span>
+            </div>
+          </article>
+          <article class="testimonial-card glass">
+            <p>“Every detail feels thoughtful, from photography to checkout. A true premium brand.”</p>
+            <div>
+              <strong>Alicia P.</strong>
+              <span>Entrepreneur</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section newsletter" data-reveal>
+        <div class="container newsletter-card">
+          <div>
+            <p class="eyebrow">Stay in the loop</p>
+            <h2>Join our newsletter for exclusive deals.</h2>
+          </div>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" />
+            <button class="btn btn-primary" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="index.html" class="brand footer-brand">
+            <span class="brand-mark">N</span>
+            <span>Northstar</span>
+          </a>
+          <p>Curated essentials for a modern, elevated life.</p>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Follow Us</h3>
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

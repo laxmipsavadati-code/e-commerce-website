@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | Northstar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="loading-screen" aria-hidden="true">
+      <div class="loader"></div>
+    </div>
+
+    <header class="site-header">
+      <nav class="navbar container">
+        <a href="index.html" class="brand">
+          <span class="brand-mark">N</span>
+          <span>Northstar</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle Menu">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="products.html">Products</a>
+          <a href="about.html" class="active">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="cart.html" class="cart-link">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="cart-count">0</span>
+          </a>
+          <button class="theme-toggle" aria-label="Toggle theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">About Northstar</p>
+          <h1>Elevating everyday living with thoughtful design.</h1>
+        </div>
+      </section>
+
+      <section class="container section about-grid" data-reveal>
+        <div>
+          <p class="eyebrow">Our Story</p>
+          <h2>We believe premium experiences should feel effortless.</h2>
+          <p>
+            Northstar began with a simple idea: great products can be both stylish and practical. Over the years, we’ve partnered with the world’s best makers to bring exceptional quality to customers who value detail, comfort, and timeless design.
+          </p>
+        </div>
+        <div class="glass about-card">
+          <h3>Mission & Vision</h3>
+          <p><strong>Mission:</strong> Curate high-performance essentials that blend innovation and elegance.</p>
+          <p><strong>Vision:</strong> Build a global community that celebrates modern craftsmanship and conscious living.</p>
+        </div>
+      </section>
+
+      <section class="section section-alt" data-reveal>
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Services</p>
+            <h2>Designed to support every step of your journey</h2>
+          </div>
+          <div class="service-grid">
+            <article class="service-card">
+              <i class="fa-solid fa-gem"></i>
+              <h3>Curated Collections</h3>
+              <p>Meticulously chosen products across style, tech, and lifestyle.</p>
+            </article>
+            <article class="service-card">
+              <i class="fa-solid fa-box-open"></i>
+              <h3>White-Glove Delivery</h3>
+              <p>Carefully packed and thoughtfully delivered to your door.</p>
+            </article>
+            <article class="service-card">
+              <i class="fa-solid fa-sparkles"></i>
+              <h3>Concierge Styling</h3>
+              <p>Personalized recommendations from our in-house experts.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="container section" data-reveal>
+        <div class="section-heading">
+          <p class="eyebrow">Meet the Team</p>
+          <h2>Experienced minds, shared passion</h2>
+        </div>
+        <div class="team-grid">
+          <article class="team-card">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80" alt="Team member" />
+            <h3>Amelia Quinn</h3>
+            <p>Founder & Creative Lead</p>
+          </article>
+          <article class="team-card">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80" alt="Team member" />
+            <h3>Daniel Ortiz</h3>
+            <p>Operations Director</p>
+          </article>
+          <article class="team-card">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80" alt="Team member" />
+            <h3>Sophia Chen</h3>
+            <p>Customer Experience</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" data-reveal>
+        <div class="stats-grid">
+          <article class="stat-card">
+            <strong data-counter="25000">0</strong>
+            <span>Happy Customers</span>
+          </article>
+          <article class="stat-card">
+            <strong data-counter="1800">0</strong>
+            <span>Products</span>
+          </article>
+          <article class="stat-card">
+            <strong data-counter="42000">0</strong>
+            <span>Orders Delivered</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="container section timeline" data-reveal>
+        <div class="section-heading">
+          <p class="eyebrow">Our Journey</p>
+          <h2>From launch to global favorite</h2>
+        </div>
+        <div class="timeline-item">
+          <h3>2018</h3>
+          <p>Northstar launched with a belief in premium, thoughtfully designed essentials.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>2021</h3>
+          <p>Expanded our collection and introduced global shipping with express support.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>2025</h3>
+          <p>Now serving thousands of customers with a refined digital experience and stronger community partnerships.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="index.html" class="brand footer-brand">
+            <span class="brand-mark">N</span>
+            <span>Northstar</span>
+          </a>
+          <p>Curated essentials for a modern, elevated life.</p>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Follow Us</h3>
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
